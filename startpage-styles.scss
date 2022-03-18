@@ -1,9 +1,9 @@
-$background1: #1F2430;
+﻿$background1: #1F2430;
 $background2: #1C212B;
 $foreground1: #CCCAC2;
 $foreground2: #707A8C;
 $foreground-hover: #637599;
-
+ 
 html {
     background: $background1;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     margin: 1em;
     padding: 1em;
 }
-
+ 
 h1 {
     font-size: 4em;
     grid-column: 1 / -1;
