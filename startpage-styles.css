@@ -1,10 +1,11 @@
-﻿html {
+html {
   background: #1F2430;
   align-items: center;
   display: flex;
   height: 100%;
   justify-content: center;
   margin: 0;
+  font-family: "Ubuntu";
 }
 
 body {
