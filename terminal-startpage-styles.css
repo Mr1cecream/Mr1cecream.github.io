@@ -1,0 +1,94 @@
+html {
+  background: #1F2430;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  font-family: "Ubuntu";
+}
+
+body {
+  background: #1F2430;
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+}
+
+a {
+  color: #B8CFE680;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+a:focus,
+a:hover {
+  color: #637599;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  text-align: left;
+}
+
+li {
+  color: #8A91992E;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+p {
+  color: #CCCAC2;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.term {
+  background: #1C212B;
+  padding: 1.5em 15em 1.5em 1.5em;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+}
+
+.prompt1 {
+  color: #FFD173;
+}
+
+.prompt2 {
+  color: #D5FF80;
+}
+
+span#time {
+  color: #5CCFE6;
+}
+
+.name {
+  color: #DFBFFF;
+}
+
+.greet {
+  color: #FFDFB3;
+}
+
+img {
+  height: 333px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  background: #1C212B;
+  padding: 7px;
+}
+
+/*# sourceMappingURL=terminal-startpage-styles.css.map */

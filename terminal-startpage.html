@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <link rel="stylesheet" href="terminal-startpage-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+</head>
+
+<body onload=refreshTime();>
+    <nav>
+        <img src="alex-azabache-unsplash.jpg">
+        <ul class="term">
+            <p>
+                <span class="greet">Welcome back, <span class="name">Guy</span>! It is now <span
+                        id="time"></span>.</span><br>
+                <span class="prompt1">~/ </span><span class="prompt2">></span> cd ~/screen<br>
+                <span class="prompt1">~/screen/ </span><span class="prompt2">></span> ls
+            </p>
+            <ul>
+                <li>&boxdl; </li>
+                <li>&boxvr; <a href="https://youtube.com/">youtube</a></li>
+                <li>&boxvr; <a href="https://twitch.tv/">twitch</a></li>
+                <li>&boxvr; <a href="https://audible.com/library/">audible</a></li>
+                <li>&boxvr; <a href="https://twitter.com/">twitter</a></li>
+                <li>&boxvr; <a href="https://reddit.com/">reddit</a></li>
+                <li>&boxvr; <a href="https://web.whatsapp.com/">whatsapp</a></li>
+                <li>&boxvr; <a href="https://github.com/">github</a></li>
+                <li>&boxvr; <a href="https://monkeytype.com/">monkeytype</a></li>
+                <li>&boxur; <a href="https://speedtest.net/">speedtest</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <script>
+        function refreshTime() {
+            var today = new Date()
+            var minutes = today.getMinutes().toString()
+            minutes = (minutes.length == 1 ? '0' : '') + minutes
+            var time = today.getHours() + ':' + minutes;
+            document.getElementById("time").textContent = time
+        }
+        setInterval(refreshTime, 5000)
+    </script>
+</body>
+
+</html>
