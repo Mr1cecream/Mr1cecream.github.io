@@ -42,23 +42,36 @@ a:hover {
 
 nav {
     display: grid;
-    grid-column-gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 1em 0;
-    padding: 0 1em;
+    grid-column-gap: 1.5em;
+    grid-template-rows: 1fr 1fr;
+    //margin: 1em 0;
+    //padding: 0 1em;
+    align-items: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+.panel {
     margin: 0;
-    padding: 1em 1em 3em 1em;
+    //padding: 1em 1em 3em 1em;
     white-space: nowrap;
     text-align: center;
     background: $background2;
     border-radius: 8px;
+    align-items: center;
 }
 
-li:first-child {
+b {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 2em;
